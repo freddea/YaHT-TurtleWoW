@@ -1,3 +1,11 @@
+# YaHT-TurtleWoWSteady
+YaHT Addon updated (Trueshot -> Steady Shot)
+
+This is an updated Version of https://github.com/FeanoroWoW/YaHT-TurtleWoW
+
+It seems "Trueshot" has been changed to "Steady Shot", this is now tanken into Account!
+
+
 ## YaHT-TurtleWoW
 Yet Another Hunter Timer for Turtle WoW, forked from the 1.12 branch of https://github.com/Aviana/YaHT. I take no credit for the original addon.
 
