@@ -1,11 +1,17 @@
 ## YaHT-TurtleWoWSteady 
 
-This is a forked Version of https://github.com/FeanoroWoW/YaHT-TurtleWoW
+This is a forked Version of https://github.com/FeanoroWoW/YaHT-TurtleWoW. I take no credit for the original addon.
 
-Trueshot was named to Steady Shot!
+- Trueshot was renamed to Steady Shot!
+
+By defaults set in YaHT.lua, all of these features are turned on.
+
+### Installation
+Installation via Turtle WoW Launcher should work by copying the GitHub URL or follow the instructions bellow.
 
 ### Notes
 This addon is provided "as is" and doesn't entitle you to any support.
+
 
 
 ## YaHT-TurtleWoW
