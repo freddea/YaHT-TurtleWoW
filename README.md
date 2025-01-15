@@ -7,9 +7,8 @@ This is a forked Version of https://github.com/FeanoroWoW/YaHT-TurtleWoW. I take
 By defaults set in YaHT.lua, all of these features are turned on.
 
 ### Installation
-- Extract the contents. Do not simply place the YaHT-TurtleWoW-master folder in your Addons folder.
+- Extract the contents. Do not simply place the YaHT-TurtleWoWSteady-master folder in your Addons folder.
 - Place the YaHT folder in your Addons folder
-- Place YaHT.lua in WTF\Account\YOURACCOUNTNAME\SavedVariables
 
 ### Notes
 This addon is provided "as is" and doesn't entitle you to any support.
