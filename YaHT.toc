@@ -1,8 +1,0 @@
-## Interface: 11200
-## Title: YaHT
-## Notes: Yet another Hunter Timer.
-## Author: Avi
-## Version: 1.0.0
-## SavedVariables: YaHTdb
-
-YaHT.lua
