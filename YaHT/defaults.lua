@@ -23,6 +23,7 @@ YaHT.defaults = {
 	profile = {
 		aimed = true,
 		multi = true,
+		steady_shot = true,
 		locked = false,
 		colors = {
 			bordercolor = {

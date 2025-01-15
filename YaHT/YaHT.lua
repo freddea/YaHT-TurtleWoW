@@ -58,12 +58,12 @@ function YaHT:OnInitialize()
 				set = function() YaHT.db.profile.multi = not YaHT.db.profile.multi end,
 				order = 3,
 			},
-            trueshot = {
-				name = L["Trueshot in castbar"],
-				desc = L["Show 'Trueshot' in the castbar"],
+            steady_shot = {
+				name = L["Steady Shot in castbar"],
+				desc = L["Show 'Steady Shot' in the castbar"],
 				type = "toggle",
-				get = function() return YaHT.db.profile.trueshot end,
-				set = function() YaHT.db.profile.trueshot = not YaHT.db.profile.trueshot end,
+				get = function() return YaHT.db.profile.steady_shot end,
+				set = function() YaHT.db.profile.steady_shot = not YaHT.db.profile.steady_shot end,
 				order = 4,
 			},
 			timer = {
@@ -248,7 +248,7 @@ function YaHT:OnInitialize()
 	self.ShotSpells = {
 		[L["Aimed Shot"]] = true,
 		[L["Multi-Shot"]] = true,
-        [L["Trueshot"]] = true,
+        [L["Steady Shot"]] = true,
 		[L["Arcane Shot"]] = true,
 		[L["Concussive Shot"]] = true,
 		[L["Distracting Shot"]] = true,
@@ -382,8 +382,8 @@ function YaHT:StartCast(spellName, rank)
 	elseif spellName == L["Multi-Shot"] then
 		castbar = YaHT.db.profile.multi         -- Is Multi-Shot in the castbar enabled in the WTF profile?
 		self.casttime = 0.5                     -- Hidden cast time is 1 second.
-    elseif spellName == L["Trueshot"] then
-		castbar = YaHT.db.profile.trueshot      -- Is Trueshot in the castbar enabled in the WTF profile?
+    elseif spellName == L["Steady Shot"] then
+		castbar = YaHT.db.profile.steady_shot      -- Is steady_shot in the castbar enabled in the WTF profile?
 		self.casttime = 1.0                     -- Base cast time is 1 second.
 	elseif spellName == L["Tranquilizing Shot"] and YaHT.db.profile.tranq then
 		self:ScheduleEvent("YaHT_TRANQ", self.Announce, 0.2, self, string.gsub(YaHT.db.profile.tranqmsg,"%%t",UnitName("target")))
